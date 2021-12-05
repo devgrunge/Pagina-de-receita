@@ -1,0 +1,93 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+font-size: 1rem;
+}
+
+
+body {
+background-color: #EAEAEA;
+justify-content: center;
+font: 'roboto' , serif;
+display: grid;
+grid-template-areas: 
+     "header header"
+     "main main"
+     "footer footer" ;
+
+}
+
+h1 {
+font: 'roboto'  bold, serif ;
+font-size: 1.75rem;
+padding-left: 40%;
+padding-top: 5%;
+}
+
+h2{
+font: 'roboto' , serif;
+padding-left: 40%;
+font-size: 1.25rem;
+
+}
+
+
+main {
+width: 150vh ;
+height: 150vh;
+background-color: #FFFFFF;
+border-radius: 5%;
+}
+
+/*div {
+
+
+     
+}*/
+
+.topImageWaffles{
+height: 20vh;
+width: 120vh;
+padding: 10%;
+
+}
+
+.fotoPerfil{
+height: 20vh;
+width: 20vh;
+padding-left: 10%;
+
+
+}
+
+li{
+padding-left: 10%;
+font-size: 1rem;
+
+
+}
+
+ul{
+list-style-type: none;
+font-size: 1rem;
+}
+
+span {
+font-weight: bold;
+font-size: 0.75rem;
+padding-left: 10%;
+}
+
+.profileFooter {
+width: 100vh;
+
+}
+
+
+/*.header {
+
+
+
+
+}*/
