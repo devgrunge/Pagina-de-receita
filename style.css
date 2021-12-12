@@ -29,7 +29,7 @@ h2{
 font: 'roboto' , serif;
 padding-left: 40%;
 font-size: 1.25rem;
-
+padding-top: 2%;
 }
 
 
@@ -45,12 +45,19 @@ border-radius: 5%;
 
      
 }*/
+.waffleLegendImage{
+padding-left: 77%;
+padding-bottom: 20%;
+font: 1rem italic grey   ;
+font-weight: lighter;
+
+}
 
 .topImageWaffles{
-height: 20vh;
-width: 120vh;
-padding: 10%;
-
+height: 40vh;
+width: 69vw;
+padding: 2%;
+border-radius: 10%;
 }
 
 .fotoPerfil{
@@ -62,32 +69,44 @@ padding-left: 10%;
 }
 
 li{
-padding-left: 10%;
 font-size: 1rem;
 
-
 }
+
+
 
 ul{
-list-style-type: none;
+/*list-style-type: none;*/
 font-size: 1rem;
-}
-
-span {
-font-weight: bold;
-font-size: 0.75rem;
 padding-left: 10%;
 }
 
-.profileFooter {
-width: 100vh;
+
+.ingredientsPadding{
+padding-top: 3%;
+
 
 }
 
-
-/*.header {
-
-
+.preparosPadding{
+padding-top: 3%;
 
 
-}*/
+     
+}
+
+
+span {
+font-weight: normal;
+font-size: 1rem;
+/*padding-left: 10%;*/
+}
+
+
+
+.aditionalInfosTxt{
+padding-left: 10%;
+padding-top: 3%;
+display: block;
+}
+
